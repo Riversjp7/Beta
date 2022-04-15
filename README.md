@@ -19,4 +19,12 @@ Beta_Graph.py
 QCDbfunc.py
   This program was one of the early additions of my programming the mathematical underpinnings for the beta function itself. I displayed my results with matplotlib and then used it as a sandbox to test slider functionality.
   
+padeApprox.py
+  Coding the Pade Approximate was one of the most challenging parts of this whole process. It was a new mathematical concept that I had never heard of, and I was given the task of translating it into code. It doesn't seem extremely hard in retrospect, but it sent me bouncing between the IDE, my personal white board, and the Wolfram Alpha's article on the subject (https://mathworld.wolfram.com/PadeApproximant.html). I definitely had to rethink of the topic in matrix form rather than polynomial form for the creation of the algorithm which wasn't super easy. I had a lot of fun! This function was used to vary the M and L values for the taylor series of e^x which I could check on Wolfram Alpha to be sure my algorithm worked properly.
+  
+betaPade.py
+  Eventually of course I had to connect my Beta function work with my Pade Approximate work, and this took some care but I used this function to connect them and finally the code was copied into the appropriate programs.
+  
+BPgui.py
+  This function was actually part of my original idea for the "Beta Graph" portion of my research. I programmed it to be more versatile and able to take in any L and M values, coupling constant and number of flavors. I had plans to then be able to graph something similar to Beta_Graph.py with the use of a button. A few time consuming problems arose while I was working on this. First, there are interdependencies when picking these numbers, so there were faulty values in some regions. Also, programmatically I was spending a lot of unecessary time trying to link the graph and slider capability to the orignal window flavor number. There were a lot of little problems here and there that I may have been able to fix, however, bbecause of time constraints and  with coaching from my advisor, I was able to rethink about what I needed and save myself from getting in to deep.
 
