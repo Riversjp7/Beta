@@ -27,4 +27,8 @@ betaPade.py:
   
 BPgui.py:
   This function was actually part of my original idea for the "Beta Graph" portion of my research. I programmed it to be more versatile and able to take in any L and M values, coupling constant and number of flavors. I had plans to then be able to graph something similar to Beta_Graph.py with the use of a button. A few time consuming problems arose while I was working on this. First, there are interdependencies when picking these numbers, so there were faulty values in some regions. Also, programmatically I was spending a lot of unecessary time trying to link the graph and slider capability to the orignal window flavor number. There were a lot of little problems here and there that I may have been able to fix, however, bbecause of time constraints and  with coaching from my advisor, I was able to rethink about what I needed and save myself from getting in to deep.
+  
+ ***The Senior_Thesis.pdf is my paper on the project***
+ 
+ 
 
